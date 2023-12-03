@@ -19,7 +19,7 @@ var total = 0
 var totalPower = 0
 
 func main() {
-	lines := util.ParseFile("input1")
+	lines := util.ParseFile("input")
 	games := make(map[int]string)
 	for i, e := range lines {
 		game := strings.Split(e, ":")
